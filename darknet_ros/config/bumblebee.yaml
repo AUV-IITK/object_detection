@@ -9,7 +9,7 @@ yolo_model:
   detection_classes:
     names:
       - dice1
-      -	dice2
-      -	dice5
-      -	dice6
-      -	nhipata
+      - dice2
+      - dice5
+      - dice6
+      - nhipata
