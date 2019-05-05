@@ -121,8 +121,7 @@ if (CUDA_FOUND)
     ${DARKNET_PATH}/src/l2norm_layer.c            ${DARKNET_PATH}/src/yolo_layer.c
 
     ${DARKNET_PATH}/examples/art.c                ${DARKNET_PATH}/examples/lsd.c
-    #${DARKNET_PATH}/examples/attention.c          
-    ${DARKNET_PATH}/examples/nightmare.c
+    ${DARKNET_PATH}/examples/attention.c          ${DARKNET_PATH}/examples/nightmare.c
     ${DARKNET_PATH}/examples/captcha.c            ${DARKNET_PATH}/examples/regressor.c
     ${DARKNET_PATH}/examples/cifar.c              ${DARKNET_PATH}/examples/rnn.c
     ${DARKNET_PATH}/examples/classifier.c         ${DARKNET_PATH}/examples/segmenter.c
@@ -186,8 +185,7 @@ else()
     ${DARKNET_PATH}/src/l2norm_layer.c            ${DARKNET_PATH}/src/yolo_layer.c
 
     ${DARKNET_PATH}/examples/art.c                ${DARKNET_PATH}/examples/lsd.c
-    #${DARKNET_PATH}/examples/attention.c          
-    ${DARKNET_PATH}/examples/nightmare.c
+    ${DARKNET_PATH}/examples/attention.c          ${DARKNET_PATH}/examples/nightmare.c
     ${DARKNET_PATH}/examples/captcha.c            ${DARKNET_PATH}/examples/regressor.c
     ${DARKNET_PATH}/examples/cifar.c              ${DARKNET_PATH}/examples/rnn.c
     ${DARKNET_PATH}/examples/classifier.c         ${DARKNET_PATH}/examples/segmenter.c
