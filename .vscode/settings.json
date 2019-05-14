@@ -1,0 +1,10 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/ayush/Projects/object_detection_ws/devel/lib/python2.7/dist-packages",
+        "/home/ayush/Projects/VTOL/vtol_ws/devel/lib/python2.7/dist-packages",
+        "/home/ayush/Projects/mbzirc/devel/lib/python2.7/dist-packages",
+        "/home/ayush/Projects/anahita_simulation_ws/devel/lib/python2.7/dist-packages",
+        "/home/ayush/Projects/anahita_ws/devel/lib/python2.7/dist-packages",
+        "/opt/ros/kinetic/lib/python2.7/dist-packages"
+    ]
+}
