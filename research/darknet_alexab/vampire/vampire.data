@@ -1,0 +1,6 @@
+classes = 1
+train = /content/object_detection/research/darknet_alexab/vampire/train.txt
+valid = /content/object_detection/research/darknet_alexab/vampire/test.txt
+names = vampire/vampire.names
+backup = /content/object_detection/research/darknet_alexab/vampire/saved_weights/
+
