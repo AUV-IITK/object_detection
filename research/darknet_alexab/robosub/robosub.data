@@ -1,0 +1,6 @@
+classes = 5
+train = /content/object_detection/research/darknet_alexab/robosub/train.txt
+valid = /content/object_detection/research/darknet_alexab/robosub/test.txt
+names = robosub/robosub.names
+backup = /content/object_detection/research/darknet_alexab/robosub/saved_weights/
+

@@ -10,7 +10,7 @@ def common_elements(list1, list2):
     return common
 
 # Current directory
-current_dir = "/home/ayush/Projects/object_detection_ws/src/research/dataset_creation/Images/"
+current_dir = "/home/ayush/Projects/object_detection_ws/src/research/dataset_creation/Robosub/"
 
 print(current_dir)
 

@@ -7,22 +7,22 @@ subscribers:
 actions:
 
   camera_reading:
-    name: /darknet_ros/check_for_objects
+    name: /anahita/check_for_objects
 
 publishers:
 
   object_detector:
-    topic: /darknet_ros/found_object
+    topic: /anahita/found_object
     queue_size: 1
     latch: false
 
   bounding_boxes:
-    topic: /darknet_ros/bounding_boxes
+    topic: /anahita/bounding_boxes
     queue_size: 1
     latch: false
 
   detection_image:
-    topic: /darknet_ros/detection_image
+    topic: /anahita/detection_image
     queue_size: 1
     latch: true
 
