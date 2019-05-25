@@ -14,18 +14,8 @@ current_dir = "/home/ayush/Projects/object_detection_ws/src/research/darknet_ale
 
 print(current_dir)
 
-# Percentage of images to be used for the test set
-percentage_test = 20;
-
-# Create and/or truncate train.txt and test.txt
-file_train = open('train.txt', 'w+')  
-file_test = open('test.txt', 'w+')
-
 # Populate train.txt and test.txt
 counter = 0  
-index_test = round(100 / percentage_test)  
-print(index_test)
-
 txt_glob = glob.iglob(os.path.join(current_dir, "*.txt"))
 jpg_glob = glob.iglob(os.path.join(current_dir, "*.jpg"))
 txt_titles = []
