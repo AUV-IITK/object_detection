@@ -1,0 +1,16 @@
+yolo_model:
+
+  config_file:
+    name: tiny-yolo-robosub-240519.cfg
+  weight_file:
+    name: tiny-yolo-robosub-240519_800.weights
+  threshold:
+    value: 0.01
+  detection_classes:
+    names:
+      - jiangshi
+      - vetalas
+      - draugr
+      - aswang
+      - dracula
+
